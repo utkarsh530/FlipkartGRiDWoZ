@@ -19,15 +19,8 @@
 
 ## 3. Research Papers
 
-- https://arxiv.org/abs/1805.02410
-(MMDenseLSTM: An efficient combination of convolutional and recurrent neural networks for
-audio source separation)
-- https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
-(Unet Architecture)
-- https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0
-(Mel spectrogram using Librosa)
-- https://www.mathworks.com/help/deeplearning/ug/cocktail-party-source-separation-using-deep-learning-networks.html
-(Cocktail Party Source Separation using Deep Learning)
-- https://arxiv.org/abs/1912.02591
-(Investigating Deep Neural Transformations for Spectrogram-based Musical Source
-Separation)
+- [MMDenseLSTM: An efficient combination of convolutional and recurrent neural networks for audio source separation](https://arxiv.org/abs/1805.02410)
+- [Unet Architecture](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
+- [Mel spectrogram using Librosa](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0)
+- [Cocktail Party Source Separation using Deep Learning](https://www.mathworks.com/help/deeplearning/ug/cocktail-party-source-separation-using-deep-learning-networks.html)
+- [Investigating Deep Neural Transformations for Spectrogram-based Musical Source Separation](https://arxiv.org/abs/1912.02591)
