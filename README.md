@@ -17,7 +17,7 @@
 - [Common Voice](https://voice.mozilla.org/en/datasets)
 - [LibriSpeech](http://www.openslr.org/12/)
 
-## 3. Research Papers
+## 3. Research Papers and References
 
 - [MMDenseLSTM: An efficient combination of convolutional and recurrent neural networks for audio source separation](https://arxiv.org/abs/1805.02410)
 - [Unet Architecture](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
