@@ -19,6 +19,7 @@
 
 ## 3. Research Papers and References
 
+- [[Main research paper]: Conditional Generative Adversarial Networks for Speech Enhancement and Noise-Robust Speaker Verification](https://arxiv.org/abs/1709.01703)
 - [MMDenseLSTM: An efficient combination of convolutional and recurrent neural networks for audio source separation](https://arxiv.org/abs/1805.02410)
 - [Unet Architecture](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 - [Mel spectrogram using Librosa](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0)
