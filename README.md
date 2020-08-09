@@ -26,6 +26,17 @@ Team Members: Utkarsh, Tanmay Yadav, Gaurav Kumar
 - [Cocktail Party Source Separation using Deep Learning](https://www.mathworks.com/help/deeplearning/ug/cocktail-party-source-separation-using-deep-learning-networks.html)
 - [Investigating Deep Neural Transformations for Spectrogram-based Musical Source Separation](https://arxiv.org/abs/1912.02591)
 
+## Video Explanation Link
+https://drive.google.com/file/d/1j9dN8tkDtNpCE8StjuWHcyeeZ5Yo8KRB/view?usp=sharing
+
+
+## Sample Word Error Rate & Character Error Rate
+
+Tested on 745 samples as provided by Flipkart and transcript generated from the given API:
+
+WER: 53%
+CER: 50%
+
 ## Running the Script
 ```
 pip install -r requirements.txt
