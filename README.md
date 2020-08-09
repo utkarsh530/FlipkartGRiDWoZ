@@ -32,3 +32,10 @@ python Test.py filename
 ```
 The model is not uploaded on github, please download it from [this](https://drive.google.com/file/d/13b9FTOAF5rJMY52p8siBt8NxvpEcYAZW/view?usp=sharing) link.
 The file should be in the same directory and the output would be generated in `<your_current_directory>/output/result.wav`
+
+## Pix2Pix GAN Diagram
+![gan](https://github.com/utkarsh530/FlipkartGRiDWoZ/blob/master/model_training/Screenshot%20from%202020-08-09%2013-14-35.png)
+## Discriminator Model
+![disc_model](https://github.com/utkarsh530/FlipkartGRiDWoZ/blob/master/model_training/discriminator_model.png)
+## Generator Model
+![gen_model](https://github.com/utkarsh530/FlipkartGRiDWoZ/blob/master/model_training/generator_model.png)
