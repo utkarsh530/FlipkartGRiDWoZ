@@ -26,4 +26,9 @@
 - [Investigating Deep Neural Transformations for Spectrogram-based Musical Source Separation](https://arxiv.org/abs/1912.02591)
 
 ## Running the Script
-`python Test.py filename`
+```
+pip install -r requirements.txt
+python Test.py filename
+```
+The model is not uploaded on github, please download it from [this]() link.
+The file should be in the same directory and the output would be generated in `<your_current_directory>/output/result.wav`
