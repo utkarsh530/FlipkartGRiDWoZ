@@ -1,6 +1,8 @@
 # FlipkartGRiD 2.0 - Submission for Wheels of Zeus, IIT Kanpur
 Team Members: Utkarsh, Tanmay Yadav, Gaurav Kumar
 
+https://github.com/utkarsh530/FlipkartGRiDWoZ
+
 ## 1. Problem statement and Testing Dataset
 
 [Round 3 Problem and Testing dataset](https://drive.google.com/file/d/1jqy-HowmuFyjAg4JJGNMoFHqkVBlwyl9/view?usp=sharing)
