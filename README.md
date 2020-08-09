@@ -32,9 +32,13 @@ https://drive.google.com/file/d/1j9dN8tkDtNpCE8StjuWHcyeeZ5Yo8KRB/view?usp=shari
 
 ## Sample Word Error Rate & Character Error Rate
 
+We have used python library called asrtoolkit.
+
+`pip install asrtoolkit`
+
 Tested on 745 samples as provided by Flipkart and transcript generated from the given API:
 
-We are removing some extraneous some outputs for better representation of data since the checking is primarily done on Hindi UTF-8 which significantly affects WER since Hindi Language has more syllables.
+We are removing some extraneous some outputs for better representation of data since the checking is primarily done on Hindi UTF-8 which significantly affects WER since Hindi Language has more syllables. Some of the results of the ASR API weren't as expected and WER is expected to increase if we use UTF-EN for WER calculation
 
 | Samples    | Mean WER | Median WER | Mode WER  |
 |------------|----------|------------|-----------|
@@ -42,6 +46,13 @@ We are removing some extraneous some outputs for better representation of data s
 | 698 (89%)  | 0.385    | 0.3125     | 0.0 (101) |
 | 715 (96%)  | 0.402    | 0.333      | 0.0 (101) |
 | 745 (100%) | 0.539    | 0.333      | 0.0 (101) |
+
+| Samples     | Mean CER | Median CER | Mode CER  |
+|-------------|----------|------------|-----------|
+| 654 (87%)   | 0.2351   | 0.167      | 0.0 (126) |
+| 698 (92.6%) | 0.2750   | 0.17647    | 0.0 (126) |
+| 715 (95%)   | 0.3002   | 0.185      | 0.0 (126) |
+| 745 (100%)  | 0.5214   | 0.2        | 0.0 (126) |
 
 ## Running the Script
 ```
