@@ -25,5 +25,5 @@
 - [Cocktail Party Source Separation using Deep Learning](https://www.mathworks.com/help/deeplearning/ug/cocktail-party-source-separation-using-deep-learning-networks.html)
 - [Investigating Deep Neural Transformations for Spectrogram-based Musical Source Separation](https://arxiv.org/abs/1912.02591)
 
-## Running the Scrp
+## Running the Script
 `python Test.py filename`
