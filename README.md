@@ -6,6 +6,8 @@ https://github.com/utkarsh530/FlipkartGRiDWoZ
 ## Live Web App Url for testing
 http://13.233.87.14/
 
+Please note that .wav files are only supported!
+
 ## 1. Problem statement and Testing Dataset
 
 [Round 3 Problem and Testing dataset](https://drive.google.com/file/d/1jqy-HowmuFyjAg4JJGNMoFHqkVBlwyl9/view?usp=sharing)
