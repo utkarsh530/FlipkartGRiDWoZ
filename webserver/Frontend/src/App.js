@@ -30,8 +30,8 @@ class App extends Component {
       })
   }
 
-  handleClick(){
-    axios.post(`http://localhost:7000/runPythonScript`, { })
+  handleClick() {
+    axios.post(`http://localhost:7000/runPythonScript`, {})
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -41,17 +41,13 @@ class App extends Component {
     e.preventDefault() // Stop form submit
     this.fileUpload(this.state.file).then((response) => {
       console.log(response.data);
-      axios.get(`http://localhost:7000/getDir`)
-        .then(res => {
-          const files = res.data;
-          console.log(res.data);
           this.setState({
-            dir: res.data,
+            dir: response.data,
             flashMessage: true
           });
         })
 
-    })
+    
   }
   onChange(e) {
     this.setState({ file: e.target.files[0] })
@@ -70,13 +66,13 @@ class App extends Component {
   }
   render() {
     const { dir, message } = this.state
-    const outputfiles = dir.map(file=>(
-            <audio controls>
-            {/* <source src="../files/sample.mp3" type="audio/mpeg" /> */}
-            <source src={`/files/${file}`} type="audio/mpeg" /> 
+    const outputfiles = dir.map(file => (
+      <audio controls>
+        {/* <source src="../files/sample.mp3" type="audio/mpeg" /> */}
+        <source src={`/files/${file}`} type="audio/mpeg" />
             Your browser does not support the audio tag.
-          </audio>
-          
+      </audio>
+
     ))
     console.log(__dirname)
     return (
@@ -89,9 +85,9 @@ class App extends Component {
             <input style={{ paddingBottom: "10px" }} type="file" onChange={this.onChange} />
             <br />
             <button type="submit" class="btn btn-primary">Upload</button>
-            
+
           </form>
-          <button onClick={() => this.handleClick() } class="btn btn-success">Execute Script</button>
+          <button onClick={() => this.handleClick()} class="btn btn-success">Execute Script</button>
 
           {(this.state.flashMessage == true) ? <FlashMessage duration={2500}>
             <strong className="alert alert-success" role="alert">{message} </strong>
