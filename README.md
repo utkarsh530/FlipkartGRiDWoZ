@@ -30,5 +30,5 @@
 pip install -r requirements.txt
 python Test.py filename
 ```
-The model is not uploaded on github, please download it from [this]() link.
+The model is not uploaded on github, please download it from [this](https://drive.google.com/file/d/13b9FTOAF5rJMY52p8siBt8NxvpEcYAZW/view?usp=sharing) link.
 The file should be in the same directory and the output would be generated in `<your_current_directory>/output/result.wav`
