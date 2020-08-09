@@ -14,8 +14,9 @@ var filename ='';
 
 app.set("view engine", "ejs");
 
-var command = `python ../../WoZServer/hello.py ${filename}`
+var command1 = `conda activate base`
 
+var command2 = `python ../../WoZServer/Test.py ${filename}`
 console.log(__dirname);
 
 app.get("/", function(req,res){
@@ -23,7 +24,7 @@ app.get("/", function(req,res){
 });
 
 app.get("/getDir", function(req,res){
-    const testFolder = '../../WoZServer/';
+    const testFolder = __dirname + '/Frontend/public/files/';
     
     fs.readdir(testFolder, (err, files) => { // returns an array of file names
         console.log(files);
@@ -43,7 +44,7 @@ app.post('/fileUpload',async function(req, res) {
         file.pipe(fstream);
         fstream.on('close', function () {
             console.log("File Uploaded");
-            const testFolder = '../../WoZServer/';
+            const testFolder = __dirname + '/Frontend/public/files/';
     
             fs.readdir(testFolder, (err, files) => { // returns an array of file names
                 console.log(files);
@@ -54,13 +55,20 @@ app.post('/fileUpload',async function(req, res) {
 });
 
 
-app.post("/runPythonScript", function(req, res){
-    cmd.get(
-        command
+app.post("/runPythonScript",async function(req, res){
+    await cmd.get(
+        command1
         , function (err, data, stderr) {
             console.log(err);
             console.log(data);
+            
         });
+        cmd.get(
+            command2
+            , function (err, data, stderr) {
+                console.log(err);
+                console.log(data);
+            });
     res.send("Python Script Executed")
 });
 

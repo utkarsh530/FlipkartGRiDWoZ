@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://localhost:7000/getDir`)
+    axios.get(`http://13.233.87.14:7000/getDir`)
       .then(res => {
         const files = res.data;
         console.log(res.data);
@@ -31,7 +31,7 @@ class App extends Component {
   }
 
   handleClick() {
-    axios.post(`http://localhost:7000/runPythonScript`, {})
+    axios.post(`http://13.233.87.14:7000/runPythonScript`, {})
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -53,7 +53,7 @@ class App extends Component {
     this.setState({ file: e.target.files[0] })
   }
   fileUpload(file) {
-    const url = 'http://localhost:7000/fileUpload';
+    const url = 'http://13.233.87.14:7000/fileUpload';
     const formData = new FormData();
     formData.append('file', file)
     const config = {
