@@ -34,8 +34,14 @@ https://drive.google.com/file/d/1j9dN8tkDtNpCE8StjuWHcyeeZ5Yo8KRB/view?usp=shari
 
 Tested on 745 samples as provided by Flipkart and transcript generated from the given API:
 
-WER: 53%
-CER: 50%
+We are removing some extraneous some outputs for better representation of data since the checking is primarily done on Hindi UTF-8 which significantly affects WER since Hindi Language has more syllables.
+
+| Samples    | Mean WER | Median WER | Mode WER  |
+|------------|----------|------------|-----------|
+| 635 (85%)  | 0.324    | 0.285      | 0.0 (101) |
+| 698 (89%)  | 0.385    | 0.3125     | 0.0 (101) |
+| 715 (96%)  | 0.402    | 0.333      | 0.0 (101) |
+| 745 (100%) | 0.539    | 0.333      | 0.0 (101) |
 
 ## Running the Script
 ```
