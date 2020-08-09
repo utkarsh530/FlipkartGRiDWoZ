@@ -19,15 +19,8 @@
 
 ## 3. Research Papers and References
 
-- [[Main research paper]: Conditional Generative Adversarial Networks for Speech Enhancement and Noise-Robust Speaker Verification](https://arxiv.org/abs/1709.01703)
 - [MMDenseLSTM: An efficient combination of convolutional and recurrent neural networks for audio source separation](https://arxiv.org/abs/1805.02410)
 - [Unet Architecture](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 - [Mel spectrogram using Librosa](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0)
 - [Cocktail Party Source Separation using Deep Learning](https://www.mathworks.com/help/deeplearning/ug/cocktail-party-source-separation-using-deep-learning-networks.html)
 - [Investigating Deep Neural Transformations for Spectrogram-based Musical Source Separation](https://arxiv.org/abs/1912.02591)
-
-## ASR API
-
-```
-curl   -H "Authorization: Token 3715119fd7753d33bedbd3c2832752ee7b0a10c7"   --form "user=310"   --form "language=HI"   --form "audio_file=@67.wav"   https://dev.liv.ai/liv_transcription_api/recordings/
-```
