@@ -9,7 +9,7 @@ http://13.233.87.14/
 ## API for testing the file
 
 ```
-curl   --form "file=@filename.wav"   http://13.233.87.14:7000/denoise >> filename_result.wav
+curl   --form "file=@filename.wav"   http://13.233.87.14:7000/denoise > filename_result.wav
 ```
  
 Please note that .wav files are only supported!
