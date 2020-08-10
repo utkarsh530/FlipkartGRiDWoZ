@@ -6,7 +6,7 @@ https://github.com/utkarsh530/FlipkartGRiDWoZ
 ## Live Web App Url for testing
 http://13.233.87.14/
 
-## API to for testing the file
+## API for testing the file
 
 ```
 curl   --form "file=@filename.wav"   http://13.233.87.14:7000/denoise >> filename_result.wav
